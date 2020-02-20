@@ -6,3 +6,9 @@ body{
   .entry .entry-title::before{
     display: none;
   }
+
+@media screen and (max-width: 480px){
+    .site-description{
+        display:block;
+    }
+}
