@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  Theme Name:   Twenty Nineteen Enfant
  Theme URI:    http://example.com/twenty-fifteen-child/
@@ -11,21 +12,29 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteenenfant
 */
-body{
+/*--------------------------------------------------------------------------------------
+Import de Entête
+---------------------------------------------------------------------------------------*/
+body {
   font-family: 'Roboto', sans-serif;
 }
 
-.entry .entry-title::before{
+.entry .entry-title::before {
   display: none;
 }
 
-.rayures{
-  background: repeating-linear-gradient(
-    45deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
-    );
-    color:white;
+/*--------------------------------------------------------------------------------------
+Import de Footer
+---------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------
+Import de Gutenberg
+---------------------------------------------------------------------------------------*/
+.rayures {
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+  color: white;
 }
+
+/*--------------------------------------------------------------------------------------
+Import de Mixins
+---------------------------------------------------------------------------------------*/
+/*# sourceMappingURL=style.css.map */
