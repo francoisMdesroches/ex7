@@ -38,3 +38,15 @@
     }
   }
 }
+
+.anim-bloc1{
+  color:black;
+  transform:rotate(0), translateX(0);
+  opacity: 1;
+  transition: transform 1s, color 1s, opacity 1s;
+  &:hover{
+    transform: rotate(45deg) translateX(20px);
+    color: #606dbc;
+    opacity: .1;
+  }
+} 
