@@ -40,6 +40,38 @@ Import de Gutenberg
   color: white;
 }
 
+.anim-bloc2 {
+  border: 3px solid green;
+  -webkit-animation: animBordure 3s infinite alternate linear;
+          animation: animBordure 3s infinite alternate linear;
+}
+
+@-webkit-keyframes animBordure {
+  from {
+    -webkit-transform: rotate3d(0);
+            transform: rotate3d(0);
+    border: 0px solid red;
+  }
+  to {
+    -webkit-transform: rotate3d(0.3, 1, 1, 90deg);
+            transform: rotate3d(0.3, 1, 1, 90deg);
+    border: 10px solid green;
+  }
+}
+
+@keyframes animBordure {
+  from {
+    -webkit-transform: rotate3d(0);
+            transform: rotate3d(0);
+    border: 0px solid red;
+  }
+  to {
+    -webkit-transform: rotate3d(0.3, 1, 1, 90deg);
+            transform: rotate3d(0.3, 1, 1, 90deg);
+    border: 10px solid green;
+  }
+}
+
 /*--------------------------------------------------------------------------------------
 Import de Mixins
 ---------------------------------------------------------------------------------------*/
