@@ -72,6 +72,24 @@ Import de Gutenberg
   }
 }
 
+.anim-bloc3 {
+  -webkit-transform: "EDDY MARTIN";
+          transform: "EDDY MARTIN";
+  font-size: 1em;
+  color: yellow;
+  -webkit-transition: color 2s, font-size 2s;
+  transition: color 2s, font-size 2s;
+}
+
+.anim-bloc3:hover {
+  color: purple;
+  font-size: 4em;
+}
+
+.anim-bloc3:hover:before {
+  content: "JOYEUSES PÂQUES \n";
+}
+
 /*--------------------------------------------------------------------------------------
 Import de Mixins
 ---------------------------------------------------------------------------------------*/

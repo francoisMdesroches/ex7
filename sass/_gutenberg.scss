@@ -24,3 +24,17 @@
     border: 10px solid green
   }
 }
+
+.anim-bloc3{
+  transform:to-upper-case($string: "Eddy Martin");
+  font-size: 1em;
+  color:yellow;
+  transition: color 2s, font-size 2s;
+  &:hover{
+    color:purple;
+    font-size: 4em;
+    &:before{
+      content: "JOYEUSES PÂQUES \n";
+    }
+  }
+}
