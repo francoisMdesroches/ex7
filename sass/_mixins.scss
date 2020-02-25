@@ -1,4 +1,4 @@
-@mixin rayures($angle, $couleur1, $couleur2, $taille) {
+@mixin rayures($angle, $couleur1, $couleur2, $taille: 10px) {
     background: repeating-linear-gradient(
         $angle, 
         $couleur1, 
@@ -6,4 +6,6 @@
         $couleur2 $taille, 
         $couleur2 $taille+$taille 
     );
+    color: white;
+    font-weight: bold;
 }

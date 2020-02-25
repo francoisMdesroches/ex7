@@ -1,12 +1,12 @@
 {
     "version": 3,
-    "mappings": ";AAAA;;;;;;;;;;;;EAYE;AAEF;;yFAEyF;ACfzF,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,oBAAoB;CAClC;;AAED,AAAA,MAAM,CAAC,YAAY,AAAA,QAAQ,CAAA;EACzB,OAAO,EAAE,IAAI;CACd;;AAEH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,iBAAiB,CAAA;IACb,OAAO,EAAC,KAAK;GAChB;;;ADML;;yFAEyF;AAEzF;;yFAEyF;AAEzF;;yFAEyF",
+    "mappings": ";AAAA;;;;;;;;;;;;EAYE;AAEF;;yFAEyF;AAEzF;;yFAEyF;AEnBzF,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,oBAAoB;CAClC;;AAED,AAAA,MAAM,CAAC,YAAY,AAAA,QAAQ,CAAA;EACzB,OAAO,EAAE,IAAI;CACd;;AAEH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,iBAAiB,CAAA;IACb,OAAO,EAAC,KAAK;GAChB;;;AFUL;;yFAEyF;AAEzF;;yFAEyF;AI5BzF,AAAA,QAAQ,CAAA;EHCJ,UAAU,EAAE,mFAMX;EACD,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;CGPlB",
     "sources": [
         "sass/style.scss",
+        "sass/_mixins.scss",
         "sass/_entete.scss",
         "sass/_footer.scss",
-        "sass/_gutenberg.scss",
-        "sass/_mixins.scss"
+        "sass/_gutenberg.scss"
     ],
     "names": [],
     "file": "style.css"
