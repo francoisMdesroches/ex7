@@ -40,6 +40,24 @@ Import de Gutenberg
   color: white;
 }
 
+.anim-bloc1 {
+  color: black;
+  -webkit-transform: rotate(0), translateX(0);
+          transform: rotate(0), translateX(0);
+  opacity: 1;
+  -webkit-transition: color 1s, opacity 1s, -webkit-transform 1s;
+  transition: color 1s, opacity 1s, -webkit-transform 1s;
+  transition: transform 1s, color 1s, opacity 1s;
+  transition: transform 1s, color 1s, opacity 1s, -webkit-transform 1s;
+}
+
+.anim-bloc1:hover {
+  -webkit-transform: rotate(45deg) translateX(20px);
+          transform: rotate(45deg) translateX(20px);
+  color: #606dbc;
+  opacity: .1;
+}
+
 /*--------------------------------------------------------------------------------------
 Import de Mixins
 ---------------------------------------------------------------------------------------*/
